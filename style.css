@@ -1,0 +1,154 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: #1f2937;
+    color: #ffff;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+    
+}
+
+ul {
+    display: flex;
+    gap: 2em;  
+}
+
+a {
+    color: #ffffff;
+}
+.welcome {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.left p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-hero {
+    background: #3882f6;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 3em;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    padding: 100px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+}
+
+.card-container {
+    display: flex;
+    padding: 3em;
+    
+    
+}
+
+.square {
+    box-sizing: border-box;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5em;
+    max-width: 200px;
+}
+
+.citation-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 7em 13em;
+}
+
+.citation-text p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.citation-text .auteur {
+    text-align: end;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+    color: #ffffff;
+}
+ 
+.button-bot {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 3em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 2em 0;
+}
